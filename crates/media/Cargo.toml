@@ -1,0 +1,10 @@
+[package]
+name = "phone_mirror_media"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+tokio.workspace = true
+byteorder.workspace = true

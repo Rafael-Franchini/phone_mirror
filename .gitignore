@@ -1,0 +1,22 @@
+/target
+Cargo.lock
+**/*.rs.bk
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.exe
+!PhoneMirror_Setup.exe
+*.dll
+*.so
+*.dylib
+
+# Android / Gradle build cache & local config
+android-companion/.gradle/
+android-companion/.kotlin/
+android-companion/build/
+android-companion/app/build/
+android-companion/local.properties
+**/.gradle/
+**/.idea/
+*.iml

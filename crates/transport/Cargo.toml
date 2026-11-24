@@ -1,0 +1,11 @@
+[package]
+name = "phone_mirror_transport"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+phone_mirror_adb = { path = "../adb" }
+thiserror.workspace = true
+tokio.workspace = true
+async-trait = "0.1"

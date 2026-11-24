@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.PhoneMirror.iOS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/ios_bg</item>
+        <item name="android:statusBarColor">@color/ios_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/ios_blue</item>
+    </style>
+</resources>

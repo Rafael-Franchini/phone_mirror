@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PhoneMirror</string>
+    <string name="accessibility_service_description">Permite ao PhoneMirror injetar toques simulando teclado e mouse do computador.</string>
+</resources>

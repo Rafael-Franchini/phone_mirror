@@ -1,0 +1,10 @@
+[package]
+name = "phone_mirror_adb"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true

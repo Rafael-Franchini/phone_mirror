@@ -1,0 +1,18 @@
+[package]
+name = "phone_mirror_session"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "phone_mirror_cli"
+path = "src/main.rs"
+
+[dependencies]
+phone_mirror_adb = { path = "../adb" }
+phone_mirror_protocol = { path = "../protocol" }
+phone_mirror_input = { path = "../input" }
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true

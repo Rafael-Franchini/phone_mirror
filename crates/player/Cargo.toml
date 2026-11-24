@@ -1,0 +1,22 @@
+[package]
+name = "phone_mirror_player"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "phone_mirror_gui"
+path = "src/main.rs"
+
+[dependencies]
+phone_mirror_adb = { path = "../adb" }
+phone_mirror_session = { path = "../session" }
+phone_mirror_protocol = { path = "../protocol" }
+phone_mirror_input = { path = "../input" }
+thiserror.workspace = true
+tokio = { workspace = true, features = ["full"] }
+tracing.workspace = true
+eframe = "0.31"
+tray-icon = "0.26"
+raw-window-handle = "0.6"
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
